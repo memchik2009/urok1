@@ -1,0 +1,33 @@
+* {
+    margin: 150; /*метод отвечает за внешний отступ отступ мы его обнулили для всех обьектов*/
+    padding: 0; /*метод отвечающий за внутрениий отступ мы его обнулили для всех обьектов*/
+}
+
+body {
+    background-color:#eb4310/*задает цвет всему заднему фону*/
+}
+h1{
+    text-align: center;
+    margin: 100px;
+    padding: 100px;
+    color:yellow;/*задает цвет тексту*/
+    font-size:50px;
+
+}
+p{
+    border:5px solid;/*сделали рамку сплошной*/
+    border-radius: 50px;/*закруглили углы у рамок*/
+    border-color: #0f1545; /*сделали цвет у округления*/
+    font-size:50px;/*uvelichiki razmer texta*/
+    margin: 100px;
+    padding: 100px;
+    color:white;/*задает цвет тексту*/
+    text-align: center;/*задает ориентацию тексту*/
+    background-color:#505796/*задает цвет заднемоу фону табоички*/
+}
+
+
+
+p:hover{
+    scale: 1.2;
+}
